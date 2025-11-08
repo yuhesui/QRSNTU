@@ -12,7 +12,7 @@
     
     <script src="https://unpkg.com/lucide@latest"></script>
     
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../Files/style.css">
     <link rel="icon" href="../Files/logo-v1.png" type="image/png">
 </head>
 <body class="bg-white text-gray-800 font-body antialiased">
@@ -52,8 +52,40 @@
                     <p class="section-subtitle">High-quality notes, guides, and problem sets for NTU courses.</p>
                 </header>
                 
-                <div class="min-h-[40vh] flex items-center justify-center bg-gray-50 border-2 border-dashed border-gray-300 rounded-lg">
-                    <p class="text-lg text-gray-500 font-sans">Content Coming Soon</p>
+                <!-- Search Bar -->
+                <div class="max-w-2xl mx-auto mb-12">
+                    <div class="relative">
+                        <input 
+                            type="text" 
+                            id="search-input" 
+                            placeholder="Search by course code (e.g., MH1200) or name (e.g., Linear Algebra)..." 
+                            class="w-full px-5 py-4 pr-12 text-lg border-2 border-gray-300 rounded-lg focus:outline-none focus:border-blue-500 transition-colors"
+                        >
+                        <i data-lucide="search" class="absolute right-4 top-1/2 transform -translate-y-1/2 text-gray-400 h-6 w-6"></i>
+                    </div>
+                    
+                    <!-- Filter Stats -->
+                    <div class="mt-4 text-center text-sm text-gray-600">
+                        <span id="results-count">Loading courses...</span>
+                    </div>
+                </div>
+
+                <!-- Course Cards Grid -->
+                <div id="courses-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <!-- Course cards will be dynamically inserted here -->
+                </div>
+
+                <!-- No Results Message -->
+                <div id="no-results" class="hidden text-center py-16">
+                    <i data-lucide="folder-open" class="h-16 w-16 text-gray-300 mx-auto mb-4"></i>
+                    <p class="text-lg text-gray-500">No courses found matching your search.</p>
+                    <p class="text-sm text-gray-400 mt-2">Try searching with a different course code or name.</p>
+                </div>
+
+                <!-- Loading State -->
+                <div id="loading-state" class="text-center py-16">
+                    <div class="inline-block animate-spin rounded-full h-12 w-12 border-b-2 border-blue-500"></div>
+                    <p class="mt-4 text-gray-600">Loading courses from repository...</p>
                 </div>
             </div>
         </main>
@@ -79,5 +111,6 @@
     
     <script type="module" src="https://esm.run/framer-motion"></script>
     <script type="module" src="script.js"></script>
+    <script type="module" src="math_notes.js"></script>
 </body>
 </html>
