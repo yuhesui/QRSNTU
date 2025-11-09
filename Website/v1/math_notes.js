@@ -72,12 +72,11 @@ const COURSE_NAMES = {
     'HW0218': 'Communication Across the Sciences',
     'MH7002': 'Discrete Methods',
     'HE3003': 'Econometrics II',
-    'PS0002': 'Introduction to Data Science and Artificial Intelligence'
+    'PS0002': 'Introduction to Data Science and Artificial Intelligence',
     'PS5000': 'Introduction to Undergraduate Research Experience',
     'MH4910': 'Undergraduate Research Experience in Mathematical Sciences I',
     'MH4911': 'Undergraduate Research Experience in Mathematical Sciences II',
     'MH4912': 'Professional Internship',
-    'MH4913': 'Professional Attachment',
     'MH4920': 'Supervised Independent Study I',
     'MH4921': 'Supervised Independent Study II',
     'MH4930': 'Special Topics in Mathematics',
