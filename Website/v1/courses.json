@@ -722,7 +722,13 @@
       "materials": {
         "finals": {},
         "midterms": {},
-        "revisionNotes": [],
+        "revisionNotes": [
+          {
+            "name": "MH5100_AdvancedInvestigationsinCalculusI_RevisionNotes.pdf",
+            "path": "Notes/MH5100/MH5100_AdvancedInvestigationsinCalculusI_RevisionNotes.pdf",
+            "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/MH5100/MH5100_AdvancedInvestigationsinCalculusI_RevisionNotes.pdf"
+          }
+        ],
         "problemSheets": [
           {
             "name": "MH5100_AdvancedInvestigationsinCalculusI_25-26_Sem1_ProblemSheet_Week 10_QuestionPaper.pdf",
@@ -816,5 +822,5 @@
       }
     }
   ],
-  "generatedAt": "2025-11-09T13:11:51.545Z"
+  "generatedAt": "2025-11-10T02:19:30.797Z"
 }
