@@ -1,6 +1,137 @@
 {
   "courses": [
     {
+      "code": "HE1002",
+      "name": "Macroeconomics I",
+      "githubUrl": "https://github.com/yuhesui/QRSNTU/tree/main/Notes/HE1002",
+      "materials": {
+        "finals": {},
+        "midterms": {},
+        "revisionNotes": [],
+        "problemSheets": [
+          {
+            "name": "HE1002_MacroeconomicsI_25-26_Sem1_ProblemSheet_10_QuestionPaper.pdf",
+            "path": "Notes/HE1002/HE1002 - Macroeconomics I - Problem Sheets (AY25-26)/HE1002_MacroeconomicsI_25-26_Sem1_ProblemSheet_10_QuestionPaper.pdf",
+            "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/HE1002/HE1002%20-%20Macroeconomics%20I%20-%20Problem%20Sheets%20(AY25-26)/HE1002_MacroeconomicsI_25-26_Sem1_ProblemSheet_10_QuestionPaper.pdf"
+          },
+          {
+            "name": "HE1002_MacroeconomicsI_25-26_Sem1_ProblemSheet_10_Solution by QRS.pdf",
+            "path": "Notes/HE1002/HE1002 - Macroeconomics I - Problem Sheets (AY25-26)/HE1002_MacroeconomicsI_25-26_Sem1_ProblemSheet_10_Solution by QRS.pdf",
+            "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/HE1002/HE1002%20-%20Macroeconomics%20I%20-%20Problem%20Sheets%20(AY25-26)/HE1002_MacroeconomicsI_25-26_Sem1_ProblemSheet_10_Solution%20by%20QRS.pdf"
+          },
+          {
+            "name": "HE1002_MacroeconomicsI_25-26_Sem1_ProblemSheet_12_QuestionPaper.pdf",
+            "path": "Notes/HE1002/HE1002 - Macroeconomics I - Problem Sheets (AY25-26)/HE1002_MacroeconomicsI_25-26_Sem1_ProblemSheet_12_QuestionPaper.pdf",
+            "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/HE1002/HE1002%20-%20Macroeconomics%20I%20-%20Problem%20Sheets%20(AY25-26)/HE1002_MacroeconomicsI_25-26_Sem1_ProblemSheet_12_QuestionPaper.pdf"
+          },
+          {
+            "name": "HE1002_MacroeconomicsI_25-26_Sem1_ProblemSheet_12_Solution by QRS.pdf",
+            "path": "Notes/HE1002/HE1002 - Macroeconomics I - Problem Sheets (AY25-26)/HE1002_MacroeconomicsI_25-26_Sem1_ProblemSheet_12_Solution by QRS.pdf",
+            "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/HE1002/HE1002%20-%20Macroeconomics%20I%20-%20Problem%20Sheets%20(AY25-26)/HE1002_MacroeconomicsI_25-26_Sem1_ProblemSheet_12_Solution%20by%20QRS.pdf"
+          },
+          {
+            "name": "HE1002_MacroeconomicsI_25-26_Sem1_ProblemSheet_1_QuestionPaper.pdf",
+            "path": "Notes/HE1002/HE1002 - Macroeconomics I - Problem Sheets (AY25-26)/HE1002_MacroeconomicsI_25-26_Sem1_ProblemSheet_1_QuestionPaper.pdf",
+            "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/HE1002/HE1002%20-%20Macroeconomics%20I%20-%20Problem%20Sheets%20(AY25-26)/HE1002_MacroeconomicsI_25-26_Sem1_ProblemSheet_1_QuestionPaper.pdf"
+          },
+          {
+            "name": "HE1002_MacroeconomicsI_25-26_Sem1_ProblemSheet_1_Solution by QRS.pdf",
+            "path": "Notes/HE1002/HE1002 - Macroeconomics I - Problem Sheets (AY25-26)/HE1002_MacroeconomicsI_25-26_Sem1_ProblemSheet_1_Solution by QRS.pdf",
+            "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/HE1002/HE1002%20-%20Macroeconomics%20I%20-%20Problem%20Sheets%20(AY25-26)/HE1002_MacroeconomicsI_25-26_Sem1_ProblemSheet_1_Solution%20by%20QRS.pdf"
+          },
+          {
+            "name": "HE1002_MacroeconomicsI_25-26_Sem1_ProblemSheet_2_QuestionPaper.pdf",
+            "path": "Notes/HE1002/HE1002 - Macroeconomics I - Problem Sheets (AY25-26)/HE1002_MacroeconomicsI_25-26_Sem1_ProblemSheet_2_QuestionPaper.pdf",
+            "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/HE1002/HE1002%20-%20Macroeconomics%20I%20-%20Problem%20Sheets%20(AY25-26)/HE1002_MacroeconomicsI_25-26_Sem1_ProblemSheet_2_QuestionPaper.pdf"
+          },
+          {
+            "name": "HE1002_MacroeconomicsI_25-26_Sem1_ProblemSheet_2_Solution by QRS.pdf",
+            "path": "Notes/HE1002/HE1002 - Macroeconomics I - Problem Sheets (AY25-26)/HE1002_MacroeconomicsI_25-26_Sem1_ProblemSheet_2_Solution by QRS.pdf",
+            "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/HE1002/HE1002%20-%20Macroeconomics%20I%20-%20Problem%20Sheets%20(AY25-26)/HE1002_MacroeconomicsI_25-26_Sem1_ProblemSheet_2_Solution%20by%20QRS.pdf"
+          },
+          {
+            "name": "HE1002_MacroeconomicsI_25-26_Sem1_ProblemSheet_3_QuestionPaper.pdf",
+            "path": "Notes/HE1002/HE1002 - Macroeconomics I - Problem Sheets (AY25-26)/HE1002_MacroeconomicsI_25-26_Sem1_ProblemSheet_3_QuestionPaper.pdf",
+            "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/HE1002/HE1002%20-%20Macroeconomics%20I%20-%20Problem%20Sheets%20(AY25-26)/HE1002_MacroeconomicsI_25-26_Sem1_ProblemSheet_3_QuestionPaper.pdf"
+          },
+          {
+            "name": "HE1002_MacroeconomicsI_25-26_Sem1_ProblemSheet_3_Solution by QRS.pdf",
+            "path": "Notes/HE1002/HE1002 - Macroeconomics I - Problem Sheets (AY25-26)/HE1002_MacroeconomicsI_25-26_Sem1_ProblemSheet_3_Solution by QRS.pdf",
+            "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/HE1002/HE1002%20-%20Macroeconomics%20I%20-%20Problem%20Sheets%20(AY25-26)/HE1002_MacroeconomicsI_25-26_Sem1_ProblemSheet_3_Solution%20by%20QRS.pdf"
+          },
+          {
+            "name": "HE1002_MacroeconomicsI_25-26_Sem1_ProblemSheet_4_QuestionPaper.pdf",
+            "path": "Notes/HE1002/HE1002 - Macroeconomics I - Problem Sheets (AY25-26)/HE1002_MacroeconomicsI_25-26_Sem1_ProblemSheet_4_QuestionPaper.pdf",
+            "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/HE1002/HE1002%20-%20Macroeconomics%20I%20-%20Problem%20Sheets%20(AY25-26)/HE1002_MacroeconomicsI_25-26_Sem1_ProblemSheet_4_QuestionPaper.pdf"
+          },
+          {
+            "name": "HE1002_MacroeconomicsI_25-26_Sem1_ProblemSheet_4_Solution by QRS.pdf",
+            "path": "Notes/HE1002/HE1002 - Macroeconomics I - Problem Sheets (AY25-26)/HE1002_MacroeconomicsI_25-26_Sem1_ProblemSheet_4_Solution by QRS.pdf",
+            "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/HE1002/HE1002%20-%20Macroeconomics%20I%20-%20Problem%20Sheets%20(AY25-26)/HE1002_MacroeconomicsI_25-26_Sem1_ProblemSheet_4_Solution%20by%20QRS.pdf"
+          },
+          {
+            "name": "HE1002_MacroeconomicsI_25-26_Sem1_ProblemSheet_5_QuestionPaper.pdf",
+            "path": "Notes/HE1002/HE1002 - Macroeconomics I - Problem Sheets (AY25-26)/HE1002_MacroeconomicsI_25-26_Sem1_ProblemSheet_5_QuestionPaper.pdf",
+            "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/HE1002/HE1002%20-%20Macroeconomics%20I%20-%20Problem%20Sheets%20(AY25-26)/HE1002_MacroeconomicsI_25-26_Sem1_ProblemSheet_5_QuestionPaper.pdf"
+          },
+          {
+            "name": "HE1002_MacroeconomicsI_25-26_Sem1_ProblemSheet_5_Solution by QRS.pdf",
+            "path": "Notes/HE1002/HE1002 - Macroeconomics I - Problem Sheets (AY25-26)/HE1002_MacroeconomicsI_25-26_Sem1_ProblemSheet_5_Solution by QRS.pdf",
+            "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/HE1002/HE1002%20-%20Macroeconomics%20I%20-%20Problem%20Sheets%20(AY25-26)/HE1002_MacroeconomicsI_25-26_Sem1_ProblemSheet_5_Solution%20by%20QRS.pdf"
+          },
+          {
+            "name": "HE1002_MacroeconomicsI_25-26_Sem1_ProblemSheet_6_QuestionPaper.pdf",
+            "path": "Notes/HE1002/HE1002 - Macroeconomics I - Problem Sheets (AY25-26)/HE1002_MacroeconomicsI_25-26_Sem1_ProblemSheet_6_QuestionPaper.pdf",
+            "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/HE1002/HE1002%20-%20Macroeconomics%20I%20-%20Problem%20Sheets%20(AY25-26)/HE1002_MacroeconomicsI_25-26_Sem1_ProblemSheet_6_QuestionPaper.pdf"
+          },
+          {
+            "name": "HE1002_MacroeconomicsI_25-26_Sem1_ProblemSheet_6_Solution by QRS.pdf",
+            "path": "Notes/HE1002/HE1002 - Macroeconomics I - Problem Sheets (AY25-26)/HE1002_MacroeconomicsI_25-26_Sem1_ProblemSheet_6_Solution by QRS.pdf",
+            "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/HE1002/HE1002%20-%20Macroeconomics%20I%20-%20Problem%20Sheets%20(AY25-26)/HE1002_MacroeconomicsI_25-26_Sem1_ProblemSheet_6_Solution%20by%20QRS.pdf"
+          },
+          {
+            "name": "HE1002_MacroeconomicsI_25-26_Sem1_ProblemSheet_7_QuestionPaper.pdf",
+            "path": "Notes/HE1002/HE1002 - Macroeconomics I - Problem Sheets (AY25-26)/HE1002_MacroeconomicsI_25-26_Sem1_ProblemSheet_7_QuestionPaper.pdf",
+            "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/HE1002/HE1002%20-%20Macroeconomics%20I%20-%20Problem%20Sheets%20(AY25-26)/HE1002_MacroeconomicsI_25-26_Sem1_ProblemSheet_7_QuestionPaper.pdf"
+          },
+          {
+            "name": "HE1002_MacroeconomicsI_25-26_Sem1_ProblemSheet_7_Solution by QRS.pdf",
+            "path": "Notes/HE1002/HE1002 - Macroeconomics I - Problem Sheets (AY25-26)/HE1002_MacroeconomicsI_25-26_Sem1_ProblemSheet_7_Solution by QRS.pdf",
+            "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/HE1002/HE1002%20-%20Macroeconomics%20I%20-%20Problem%20Sheets%20(AY25-26)/HE1002_MacroeconomicsI_25-26_Sem1_ProblemSheet_7_Solution%20by%20QRS.pdf"
+          },
+          {
+            "name": "HE1002_MacroeconomicsI_25-26_Sem1_ProblemSheet_8_QuestionPaper.pdf",
+            "path": "Notes/HE1002/HE1002 - Macroeconomics I - Problem Sheets (AY25-26)/HE1002_MacroeconomicsI_25-26_Sem1_ProblemSheet_8_QuestionPaper.pdf",
+            "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/HE1002/HE1002%20-%20Macroeconomics%20I%20-%20Problem%20Sheets%20(AY25-26)/HE1002_MacroeconomicsI_25-26_Sem1_ProblemSheet_8_QuestionPaper.pdf"
+          },
+          {
+            "name": "HE1002_MacroeconomicsI_25-26_Sem1_ProblemSheet_8_Solution by QRS.pdf",
+            "path": "Notes/HE1002/HE1002 - Macroeconomics I - Problem Sheets (AY25-26)/HE1002_MacroeconomicsI_25-26_Sem1_ProblemSheet_8_Solution by QRS.pdf",
+            "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/HE1002/HE1002%20-%20Macroeconomics%20I%20-%20Problem%20Sheets%20(AY25-26)/HE1002_MacroeconomicsI_25-26_Sem1_ProblemSheet_8_Solution%20by%20QRS.pdf"
+          },
+          {
+            "name": "HE1002_MacroeconomicsI_25-26_Sem1_ProblemSheet_9_QuestionPaper.pdf",
+            "path": "Notes/HE1002/HE1002 - Macroeconomics I - Problem Sheets (AY25-26)/HE1002_MacroeconomicsI_25-26_Sem1_ProblemSheet_9_QuestionPaper.pdf",
+            "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/HE1002/HE1002%20-%20Macroeconomics%20I%20-%20Problem%20Sheets%20(AY25-26)/HE1002_MacroeconomicsI_25-26_Sem1_ProblemSheet_9_QuestionPaper.pdf"
+          },
+          {
+            "name": "HE1002_MacroeconomicsI_25-26_Sem1_ProblemSheet_9_Solution by QRS.pdf",
+            "path": "Notes/HE1002/HE1002 - Macroeconomics I - Problem Sheets (AY25-26)/HE1002_MacroeconomicsI_25-26_Sem1_ProblemSheet_9_Solution by QRS.pdf",
+            "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/HE1002/HE1002%20-%20Macroeconomics%20I%20-%20Problem%20Sheets%20(AY25-26)/HE1002_MacroeconomicsI_25-26_Sem1_ProblemSheet_9_Solution%20by%20QRS.pdf"
+          }
+        ],
+        "lectureNotes": [],
+        "practiceMaterials": [],
+        "pastYearZips": [
+          {
+            "name": "HE1002 - Macroeconomics I - Problem Sheets (AY25-26).zip",
+            "path": "Notes/HE1002/HE1002 - Macroeconomics I - Problem Sheets (AY25-26).zip",
+            "downloadUrl": "https://github.com/yuhesui/QRSNTU/raw/main/Notes/HE1002/HE1002%20-%20Macroeconomics%20I%20-%20Problem%20Sheets%20(AY25-26).zip"
+          }
+        ]
+      }
+    },
+    {
       "code": "MH1100",
       "name": "Calculus I",
       "githubUrl": "https://github.com/yuhesui/QRSNTU/tree/main/Notes/MH1100",
@@ -997,5 +1128,5 @@
       }
     }
   ],
-  "generatedAt": "2025-11-12T07:40:10.792Z"
+  "generatedAt": "2025-11-12T18:18:50.230Z"
 }
