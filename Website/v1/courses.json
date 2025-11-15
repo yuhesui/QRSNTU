@@ -1,6 +1,38 @@
 {
   "courses": [
     {
+      "code": "HE1001",
+      "name": "Microeconomics I",
+      "githubUrl": "https://github.com/yuhesui/QRSNTU/tree/main/Notes/HE1001",
+      "materials": {
+        "finals": {},
+        "midterms": {
+          "25-26": {
+            "papers": [
+              {
+                "name": "HE1001_MicroeconomicsI_Midterm_25-26_Sem1_QuestionPaper.pdf",
+                "path": "Notes/HE1001/HE1001 - Microeconomics I - Midterms/HE1001_MicroeconomicsI_Midterm_25-26_Sem1_QuestionPaper.pdf",
+                "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/HE1001/HE1001%20-%20Microeconomics%20I%20-%20Midterms/HE1001_MicroeconomicsI_Midterm_25-26_Sem1_QuestionPaper.pdf"
+              }
+            ],
+            "solutions": [
+              {
+                "name": "HE1001_MicroeconomicsI_Midterm_25-26_Sem1_Solution.pdf",
+                "path": "Notes/HE1001/HE1001 - Microeconomics I - Midterms/HE1001_MicroeconomicsI_Midterm_25-26_Sem1_Solution.pdf",
+                "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/HE1001/HE1001%20-%20Microeconomics%20I%20-%20Midterms/HE1001_MicroeconomicsI_Midterm_25-26_Sem1_Solution.pdf"
+              }
+            ],
+            "reports": []
+          }
+        },
+        "revisionNotes": [],
+        "problemSheets": [],
+        "lectureNotes": [],
+        "practiceMaterials": [],
+        "pastYearZips": []
+      }
+    },
+    {
       "code": "HE1002",
       "name": "Macroeconomics I",
       "githubUrl": "https://github.com/yuhesui/QRSNTU/tree/main/Notes/HE1002",
@@ -301,15 +333,15 @@
             "papers": [
               {
                 "name": "MH1100_CalculusI_Midterm_17-18_Sem1_QuestionPaper.pdf",
-                "path": "Notes/MH1100/MH1100 - Calculus I - Midterm/MH1100_CalculusI_Midterm_17-18_Sem1_QuestionPaper.pdf",
-                "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/MH1100/MH1100%20-%20Calculus%20I%20-%20Midterm/MH1100_CalculusI_Midterm_17-18_Sem1_QuestionPaper.pdf"
+                "path": "Notes/MH1100/MH1100 - Calculus I - Midterms/MH1100_CalculusI_Midterm_17-18_Sem1_QuestionPaper.pdf",
+                "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/MH1100/MH1100%20-%20Calculus%20I%20-%20Midterms/MH1100_CalculusI_Midterm_17-18_Sem1_QuestionPaper.pdf"
               }
             ],
             "solutions": [
               {
                 "name": "MH1100_CalculusI_Midterm_17-18_Sem1_Solution.pdf",
-                "path": "Notes/MH1100/MH1100 - Calculus I - Midterm/MH1100_CalculusI_Midterm_17-18_Sem1_Solution.pdf",
-                "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/MH1100/MH1100%20-%20Calculus%20I%20-%20Midterm/MH1100_CalculusI_Midterm_17-18_Sem1_Solution.pdf"
+                "path": "Notes/MH1100/MH1100 - Calculus I - Midterms/MH1100_CalculusI_Midterm_17-18_Sem1_Solution.pdf",
+                "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/MH1100/MH1100%20-%20Calculus%20I%20-%20Midterms/MH1100_CalculusI_Midterm_17-18_Sem1_Solution.pdf"
               }
             ],
             "reports": []
@@ -318,15 +350,15 @@
             "papers": [
               {
                 "name": "MH1100_CalculusI_Midterm_18-19_Sem1_QuestionPaper.pdf",
-                "path": "Notes/MH1100/MH1100 - Calculus I - Midterm/MH1100_CalculusI_Midterm_18-19_Sem1_QuestionPaper.pdf",
-                "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/MH1100/MH1100%20-%20Calculus%20I%20-%20Midterm/MH1100_CalculusI_Midterm_18-19_Sem1_QuestionPaper.pdf"
+                "path": "Notes/MH1100/MH1100 - Calculus I - Midterms/MH1100_CalculusI_Midterm_18-19_Sem1_QuestionPaper.pdf",
+                "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/MH1100/MH1100%20-%20Calculus%20I%20-%20Midterms/MH1100_CalculusI_Midterm_18-19_Sem1_QuestionPaper.pdf"
               }
             ],
             "solutions": [
               {
                 "name": "MH1100_CalculusI_Midterm_18-19_Sem1_Solution.pdf",
-                "path": "Notes/MH1100/MH1100 - Calculus I - Midterm/MH1100_CalculusI_Midterm_18-19_Sem1_Solution.pdf",
-                "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/MH1100/MH1100%20-%20Calculus%20I%20-%20Midterm/MH1100_CalculusI_Midterm_18-19_Sem1_Solution.pdf"
+                "path": "Notes/MH1100/MH1100 - Calculus I - Midterms/MH1100_CalculusI_Midterm_18-19_Sem1_Solution.pdf",
+                "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/MH1100/MH1100%20-%20Calculus%20I%20-%20Midterms/MH1100_CalculusI_Midterm_18-19_Sem1_Solution.pdf"
               }
             ],
             "reports": []
@@ -335,15 +367,15 @@
             "papers": [
               {
                 "name": "MH1100_CalculusI_Midterm_19-20_Sem1_QuestionPaper.pdf",
-                "path": "Notes/MH1100/MH1100 - Calculus I - Midterm/MH1100_CalculusI_Midterm_19-20_Sem1_QuestionPaper.pdf",
-                "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/MH1100/MH1100%20-%20Calculus%20I%20-%20Midterm/MH1100_CalculusI_Midterm_19-20_Sem1_QuestionPaper.pdf"
+                "path": "Notes/MH1100/MH1100 - Calculus I - Midterms/MH1100_CalculusI_Midterm_19-20_Sem1_QuestionPaper.pdf",
+                "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/MH1100/MH1100%20-%20Calculus%20I%20-%20Midterms/MH1100_CalculusI_Midterm_19-20_Sem1_QuestionPaper.pdf"
               }
             ],
             "solutions": [
               {
                 "name": "MH1100_CalculusI_Midterm_19-20_Sem1_Solution.pdf",
-                "path": "Notes/MH1100/MH1100 - Calculus I - Midterm/MH1100_CalculusI_Midterm_19-20_Sem1_Solution.pdf",
-                "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/MH1100/MH1100%20-%20Calculus%20I%20-%20Midterm/MH1100_CalculusI_Midterm_19-20_Sem1_Solution.pdf"
+                "path": "Notes/MH1100/MH1100 - Calculus I - Midterms/MH1100_CalculusI_Midterm_19-20_Sem1_Solution.pdf",
+                "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/MH1100/MH1100%20-%20Calculus%20I%20-%20Midterms/MH1100_CalculusI_Midterm_19-20_Sem1_Solution.pdf"
               }
             ],
             "reports": []
@@ -352,15 +384,15 @@
             "papers": [
               {
                 "name": "MH1100_CalculusI_Midterm_21-22_Sem1_QuestionPaper.pdf",
-                "path": "Notes/MH1100/MH1100 - Calculus I - Midterm/MH1100_CalculusI_Midterm_21-22_Sem1_QuestionPaper.pdf",
-                "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/MH1100/MH1100%20-%20Calculus%20I%20-%20Midterm/MH1100_CalculusI_Midterm_21-22_Sem1_QuestionPaper.pdf"
+                "path": "Notes/MH1100/MH1100 - Calculus I - Midterms/MH1100_CalculusI_Midterm_21-22_Sem1_QuestionPaper.pdf",
+                "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/MH1100/MH1100%20-%20Calculus%20I%20-%20Midterms/MH1100_CalculusI_Midterm_21-22_Sem1_QuestionPaper.pdf"
               }
             ],
             "solutions": [
               {
                 "name": "MH1100_CalculusI_Midterm_21-22_Sem1_Solution.pdf",
-                "path": "Notes/MH1100/MH1100 - Calculus I - Midterm/MH1100_CalculusI_Midterm_21-22_Sem1_Solution.pdf",
-                "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/MH1100/MH1100%20-%20Calculus%20I%20-%20Midterm/MH1100_CalculusI_Midterm_21-22_Sem1_Solution.pdf"
+                "path": "Notes/MH1100/MH1100 - Calculus I - Midterms/MH1100_CalculusI_Midterm_21-22_Sem1_Solution.pdf",
+                "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/MH1100/MH1100%20-%20Calculus%20I%20-%20Midterms/MH1100_CalculusI_Midterm_21-22_Sem1_Solution.pdf"
               }
             ],
             "reports": []
@@ -369,15 +401,15 @@
             "papers": [
               {
                 "name": "MH1100_CalculusI_Midterm_22-23_Sem1_QuestionPaper.pdf.pdf",
-                "path": "Notes/MH1100/MH1100 - Calculus I - Midterm/MH1100_CalculusI_Midterm_22-23_Sem1_QuestionPaper.pdf.pdf",
-                "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/MH1100/MH1100%20-%20Calculus%20I%20-%20Midterm/MH1100_CalculusI_Midterm_22-23_Sem1_QuestionPaper.pdf.pdf"
+                "path": "Notes/MH1100/MH1100 - Calculus I - Midterms/MH1100_CalculusI_Midterm_22-23_Sem1_QuestionPaper.pdf.pdf",
+                "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/MH1100/MH1100%20-%20Calculus%20I%20-%20Midterms/MH1100_CalculusI_Midterm_22-23_Sem1_QuestionPaper.pdf.pdf"
               }
             ],
             "solutions": [
               {
                 "name": "MH1100_CalculusI_Midterm_22-23_Sem1_Solution.pdf",
-                "path": "Notes/MH1100/MH1100 - Calculus I - Midterm/MH1100_CalculusI_Midterm_22-23_Sem1_Solution.pdf",
-                "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/MH1100/MH1100%20-%20Calculus%20I%20-%20Midterm/MH1100_CalculusI_Midterm_22-23_Sem1_Solution.pdf"
+                "path": "Notes/MH1100/MH1100 - Calculus I - Midterms/MH1100_CalculusI_Midterm_22-23_Sem1_Solution.pdf",
+                "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/MH1100/MH1100%20-%20Calculus%20I%20-%20Midterms/MH1100_CalculusI_Midterm_22-23_Sem1_Solution.pdf"
               }
             ],
             "reports": []
@@ -386,15 +418,15 @@
             "papers": [
               {
                 "name": "MH1100_CalculusI_Midterm_23-24_Sem1_QuestionPaper.pdf.pdf",
-                "path": "Notes/MH1100/MH1100 - Calculus I - Midterm/MH1100_CalculusI_Midterm_23-24_Sem1_QuestionPaper.pdf.pdf",
-                "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/MH1100/MH1100%20-%20Calculus%20I%20-%20Midterm/MH1100_CalculusI_Midterm_23-24_Sem1_QuestionPaper.pdf.pdf"
+                "path": "Notes/MH1100/MH1100 - Calculus I - Midterms/MH1100_CalculusI_Midterm_23-24_Sem1_QuestionPaper.pdf.pdf",
+                "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/MH1100/MH1100%20-%20Calculus%20I%20-%20Midterms/MH1100_CalculusI_Midterm_23-24_Sem1_QuestionPaper.pdf.pdf"
               }
             ],
             "solutions": [
               {
                 "name": "MH1100_CalculusI_Midterm_23-24_Sem1_Solution.pdf",
-                "path": "Notes/MH1100/MH1100 - Calculus I - Midterm/MH1100_CalculusI_Midterm_23-24_Sem1_Solution.pdf",
-                "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/MH1100/MH1100%20-%20Calculus%20I%20-%20Midterm/MH1100_CalculusI_Midterm_23-24_Sem1_Solution.pdf"
+                "path": "Notes/MH1100/MH1100 - Calculus I - Midterms/MH1100_CalculusI_Midterm_23-24_Sem1_Solution.pdf",
+                "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/MH1100/MH1100%20-%20Calculus%20I%20-%20Midterms/MH1100_CalculusI_Midterm_23-24_Sem1_Solution.pdf"
               }
             ],
             "reports": []
@@ -403,15 +435,15 @@
             "papers": [
               {
                 "name": "MH1100_CalculusI_Midterm_24-25_Sem1_QuestionPaper.pdf.pdf",
-                "path": "Notes/MH1100/MH1100 - Calculus I - Midterm/MH1100_CalculusI_Midterm_24-25_Sem1_QuestionPaper.pdf.pdf",
-                "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/MH1100/MH1100%20-%20Calculus%20I%20-%20Midterm/MH1100_CalculusI_Midterm_24-25_Sem1_QuestionPaper.pdf.pdf"
+                "path": "Notes/MH1100/MH1100 - Calculus I - Midterms/MH1100_CalculusI_Midterm_24-25_Sem1_QuestionPaper.pdf.pdf",
+                "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/MH1100/MH1100%20-%20Calculus%20I%20-%20Midterms/MH1100_CalculusI_Midterm_24-25_Sem1_QuestionPaper.pdf.pdf"
               }
             ],
             "solutions": [
               {
                 "name": "MH1100_CalculusI_Midterm_24-25_Sem1_Solution.pdf",
-                "path": "Notes/MH1100/MH1100 - Calculus I - Midterm/MH1100_CalculusI_Midterm_24-25_Sem1_Solution.pdf",
-                "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/MH1100/MH1100%20-%20Calculus%20I%20-%20Midterm/MH1100_CalculusI_Midterm_24-25_Sem1_Solution.pdf"
+                "path": "Notes/MH1100/MH1100 - Calculus I - Midterms/MH1100_CalculusI_Midterm_24-25_Sem1_Solution.pdf",
+                "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/MH1100/MH1100%20-%20Calculus%20I%20-%20Midterms/MH1100_CalculusI_Midterm_24-25_Sem1_Solution.pdf"
               }
             ],
             "reports": []
@@ -420,15 +452,15 @@
             "papers": [
               {
                 "name": "MH1100_CalculusI_Midterm_25-26_Sem1_QuestionPaper.pdf",
-                "path": "Notes/MH1100/MH1100 - Calculus I - Midterm/MH1100_CalculusI_Midterm_25-26_Sem1_QuestionPaper.pdf",
-                "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/MH1100/MH1100%20-%20Calculus%20I%20-%20Midterm/MH1100_CalculusI_Midterm_25-26_Sem1_QuestionPaper.pdf"
+                "path": "Notes/MH1100/MH1100 - Calculus I - Midterms/MH1100_CalculusI_Midterm_25-26_Sem1_QuestionPaper.pdf",
+                "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/MH1100/MH1100%20-%20Calculus%20I%20-%20Midterms/MH1100_CalculusI_Midterm_25-26_Sem1_QuestionPaper.pdf"
               }
             ],
             "solutions": [
               {
                 "name": "MH1100_CalculusI_Midterm_25-26_Sem1_Solution.pdf",
-                "path": "Notes/MH1100/MH1100 - Calculus I - Midterm/MH1100_CalculusI_Midterm_25-26_Sem1_Solution.pdf",
-                "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/MH1100/MH1100%20-%20Calculus%20I%20-%20Midterm/MH1100_CalculusI_Midterm_25-26_Sem1_Solution.pdf"
+                "path": "Notes/MH1100/MH1100 - Calculus I - Midterms/MH1100_CalculusI_Midterm_25-26_Sem1_Solution.pdf",
+                "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/MH1100/MH1100%20-%20Calculus%20I%20-%20Midterms/MH1100_CalculusI_Midterm_25-26_Sem1_Solution.pdf"
               }
             ],
             "reports": []
@@ -848,15 +880,15 @@
             "papers": [
               {
                 "name": "MH1300_FoundationsofMathematics_Midterm_15-16_Sem1_QuestionPaper.pdf",
-                "path": "Notes/MH1300/MH1300 - Foundations of Mathematics - Midterm/MH1300_FoundationsofMathematics_Midterm_15-16_Sem1_QuestionPaper.pdf",
-                "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/MH1300/MH1300%20-%20Foundations%20of%20Mathematics%20-%20Midterm/MH1300_FoundationsofMathematics_Midterm_15-16_Sem1_QuestionPaper.pdf"
+                "path": "Notes/MH1300/MH1300 - Foundations of Mathematics - Midterms/MH1300_FoundationsofMathematics_Midterm_15-16_Sem1_QuestionPaper.pdf",
+                "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/MH1300/MH1300%20-%20Foundations%20of%20Mathematics%20-%20Midterms/MH1300_FoundationsofMathematics_Midterm_15-16_Sem1_QuestionPaper.pdf"
               }
             ],
             "solutions": [
               {
                 "name": "MH1300_FoundationsofMathematics_Midterm_15-16_Sem1_Solution.pdf",
-                "path": "Notes/MH1300/MH1300 - Foundations of Mathematics - Midterm/MH1300_FoundationsofMathematics_Midterm_15-16_Sem1_Solution.pdf",
-                "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/MH1300/MH1300%20-%20Foundations%20of%20Mathematics%20-%20Midterm/MH1300_FoundationsofMathematics_Midterm_15-16_Sem1_Solution.pdf"
+                "path": "Notes/MH1300/MH1300 - Foundations of Mathematics - Midterms/MH1300_FoundationsofMathematics_Midterm_15-16_Sem1_Solution.pdf",
+                "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/MH1300/MH1300%20-%20Foundations%20of%20Mathematics%20-%20Midterms/MH1300_FoundationsofMathematics_Midterm_15-16_Sem1_Solution.pdf"
               }
             ],
             "reports": []
@@ -865,15 +897,15 @@
             "papers": [
               {
                 "name": "MH1300_FoundationsofMathematics_Midterm_16-17_Sem1_QuestionPaper.pdf",
-                "path": "Notes/MH1300/MH1300 - Foundations of Mathematics - Midterm/MH1300_FoundationsofMathematics_Midterm_16-17_Sem1_QuestionPaper.pdf",
-                "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/MH1300/MH1300%20-%20Foundations%20of%20Mathematics%20-%20Midterm/MH1300_FoundationsofMathematics_Midterm_16-17_Sem1_QuestionPaper.pdf"
+                "path": "Notes/MH1300/MH1300 - Foundations of Mathematics - Midterms/MH1300_FoundationsofMathematics_Midterm_16-17_Sem1_QuestionPaper.pdf",
+                "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/MH1300/MH1300%20-%20Foundations%20of%20Mathematics%20-%20Midterms/MH1300_FoundationsofMathematics_Midterm_16-17_Sem1_QuestionPaper.pdf"
               }
             ],
             "solutions": [
               {
                 "name": "MH1300_FoundationsofMathematics_Midterm_16-17_Sem1_Solution.pdf",
-                "path": "Notes/MH1300/MH1300 - Foundations of Mathematics - Midterm/MH1300_FoundationsofMathematics_Midterm_16-17_Sem1_Solution.pdf",
-                "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/MH1300/MH1300%20-%20Foundations%20of%20Mathematics%20-%20Midterm/MH1300_FoundationsofMathematics_Midterm_16-17_Sem1_Solution.pdf"
+                "path": "Notes/MH1300/MH1300 - Foundations of Mathematics - Midterms/MH1300_FoundationsofMathematics_Midterm_16-17_Sem1_Solution.pdf",
+                "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/MH1300/MH1300%20-%20Foundations%20of%20Mathematics%20-%20Midterms/MH1300_FoundationsofMathematics_Midterm_16-17_Sem1_Solution.pdf"
               }
             ],
             "reports": []
@@ -882,15 +914,15 @@
             "papers": [
               {
                 "name": "MH1300_FoundationsofMathematics_Midterm_17-18_Sem1_QuestionPaper.pdf",
-                "path": "Notes/MH1300/MH1300 - Foundations of Mathematics - Midterm/MH1300_FoundationsofMathematics_Midterm_17-18_Sem1_QuestionPaper.pdf",
-                "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/MH1300/MH1300%20-%20Foundations%20of%20Mathematics%20-%20Midterm/MH1300_FoundationsofMathematics_Midterm_17-18_Sem1_QuestionPaper.pdf"
+                "path": "Notes/MH1300/MH1300 - Foundations of Mathematics - Midterms/MH1300_FoundationsofMathematics_Midterm_17-18_Sem1_QuestionPaper.pdf",
+                "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/MH1300/MH1300%20-%20Foundations%20of%20Mathematics%20-%20Midterms/MH1300_FoundationsofMathematics_Midterm_17-18_Sem1_QuestionPaper.pdf"
               }
             ],
             "solutions": [
               {
                 "name": "MH1300_FoundationsofMathematics_Midterm_17-18_Sem1_Solution.pdf",
-                "path": "Notes/MH1300/MH1300 - Foundations of Mathematics - Midterm/MH1300_FoundationsofMathematics_Midterm_17-18_Sem1_Solution.pdf",
-                "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/MH1300/MH1300%20-%20Foundations%20of%20Mathematics%20-%20Midterm/MH1300_FoundationsofMathematics_Midterm_17-18_Sem1_Solution.pdf"
+                "path": "Notes/MH1300/MH1300 - Foundations of Mathematics - Midterms/MH1300_FoundationsofMathematics_Midterm_17-18_Sem1_Solution.pdf",
+                "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/MH1300/MH1300%20-%20Foundations%20of%20Mathematics%20-%20Midterms/MH1300_FoundationsofMathematics_Midterm_17-18_Sem1_Solution.pdf"
               }
             ],
             "reports": []
@@ -899,15 +931,15 @@
             "papers": [
               {
                 "name": "MH1300_FoundationsofMathematics_Midterm_18-19_Sem1_QuestionPaper.pdf",
-                "path": "Notes/MH1300/MH1300 - Foundations of Mathematics - Midterm/MH1300_FoundationsofMathematics_Midterm_18-19_Sem1_QuestionPaper.pdf",
-                "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/MH1300/MH1300%20-%20Foundations%20of%20Mathematics%20-%20Midterm/MH1300_FoundationsofMathematics_Midterm_18-19_Sem1_QuestionPaper.pdf"
+                "path": "Notes/MH1300/MH1300 - Foundations of Mathematics - Midterms/MH1300_FoundationsofMathematics_Midterm_18-19_Sem1_QuestionPaper.pdf",
+                "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/MH1300/MH1300%20-%20Foundations%20of%20Mathematics%20-%20Midterms/MH1300_FoundationsofMathematics_Midterm_18-19_Sem1_QuestionPaper.pdf"
               }
             ],
             "solutions": [
               {
                 "name": "MH1300_FoundationsofMathematics_Midterm_18-19_Sem1_Solution.pdf",
-                "path": "Notes/MH1300/MH1300 - Foundations of Mathematics - Midterm/MH1300_FoundationsofMathematics_Midterm_18-19_Sem1_Solution.pdf",
-                "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/MH1300/MH1300%20-%20Foundations%20of%20Mathematics%20-%20Midterm/MH1300_FoundationsofMathematics_Midterm_18-19_Sem1_Solution.pdf"
+                "path": "Notes/MH1300/MH1300 - Foundations of Mathematics - Midterms/MH1300_FoundationsofMathematics_Midterm_18-19_Sem1_Solution.pdf",
+                "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/MH1300/MH1300%20-%20Foundations%20of%20Mathematics%20-%20Midterms/MH1300_FoundationsofMathematics_Midterm_18-19_Sem1_Solution.pdf"
               }
             ],
             "reports": []
@@ -916,15 +948,15 @@
             "papers": [
               {
                 "name": "MH1300_FoundationsofMathematics_Midterm_19-20_Sem1_QuestionPaper.pdf",
-                "path": "Notes/MH1300/MH1300 - Foundations of Mathematics - Midterm/MH1300_FoundationsofMathematics_Midterm_19-20_Sem1_QuestionPaper.pdf",
-                "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/MH1300/MH1300%20-%20Foundations%20of%20Mathematics%20-%20Midterm/MH1300_FoundationsofMathematics_Midterm_19-20_Sem1_QuestionPaper.pdf"
+                "path": "Notes/MH1300/MH1300 - Foundations of Mathematics - Midterms/MH1300_FoundationsofMathematics_Midterm_19-20_Sem1_QuestionPaper.pdf",
+                "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/MH1300/MH1300%20-%20Foundations%20of%20Mathematics%20-%20Midterms/MH1300_FoundationsofMathematics_Midterm_19-20_Sem1_QuestionPaper.pdf"
               }
             ],
             "solutions": [
               {
                 "name": "MH1300_FoundationsofMathematics_Midterm_19-20_Sem1_Solution.pdf",
-                "path": "Notes/MH1300/MH1300 - Foundations of Mathematics - Midterm/MH1300_FoundationsofMathematics_Midterm_19-20_Sem1_Solution.pdf",
-                "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/MH1300/MH1300%20-%20Foundations%20of%20Mathematics%20-%20Midterm/MH1300_FoundationsofMathematics_Midterm_19-20_Sem1_Solution.pdf"
+                "path": "Notes/MH1300/MH1300 - Foundations of Mathematics - Midterms/MH1300_FoundationsofMathematics_Midterm_19-20_Sem1_Solution.pdf",
+                "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/MH1300/MH1300%20-%20Foundations%20of%20Mathematics%20-%20Midterms/MH1300_FoundationsofMathematics_Midterm_19-20_Sem1_Solution.pdf"
               }
             ],
             "reports": []
@@ -933,8 +965,8 @@
             "papers": [
               {
                 "name": "MH1300_FoundationsofMathematics_Midterm_20-21_Sem1_QuestionPaper.pdf",
-                "path": "Notes/MH1300/MH1300 - Foundations of Mathematics - Midterm/MH1300_FoundationsofMathematics_Midterm_20-21_Sem1_QuestionPaper.pdf",
-                "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/MH1300/MH1300%20-%20Foundations%20of%20Mathematics%20-%20Midterm/MH1300_FoundationsofMathematics_Midterm_20-21_Sem1_QuestionPaper.pdf"
+                "path": "Notes/MH1300/MH1300 - Foundations of Mathematics - Midterms/MH1300_FoundationsofMathematics_Midterm_20-21_Sem1_QuestionPaper.pdf",
+                "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/MH1300/MH1300%20-%20Foundations%20of%20Mathematics%20-%20Midterms/MH1300_FoundationsofMathematics_Midterm_20-21_Sem1_QuestionPaper.pdf"
               }
             ],
             "solutions": [],
@@ -944,15 +976,15 @@
             "papers": [
               {
                 "name": "MH1300_FoundationsofMathematics_Midterm_21-22_Sem1_QuestionPaper.pdf",
-                "path": "Notes/MH1300/MH1300 - Foundations of Mathematics - Midterm/MH1300_FoundationsofMathematics_Midterm_21-22_Sem1_QuestionPaper.pdf",
-                "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/MH1300/MH1300%20-%20Foundations%20of%20Mathematics%20-%20Midterm/MH1300_FoundationsofMathematics_Midterm_21-22_Sem1_QuestionPaper.pdf"
+                "path": "Notes/MH1300/MH1300 - Foundations of Mathematics - Midterms/MH1300_FoundationsofMathematics_Midterm_21-22_Sem1_QuestionPaper.pdf",
+                "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/MH1300/MH1300%20-%20Foundations%20of%20Mathematics%20-%20Midterms/MH1300_FoundationsofMathematics_Midterm_21-22_Sem1_QuestionPaper.pdf"
               }
             ],
             "solutions": [
               {
                 "name": "MH1300_FoundationsofMathematics_Midterm_21-22_Sem1_Solution.pdf",
-                "path": "Notes/MH1300/MH1300 - Foundations of Mathematics - Midterm/MH1300_FoundationsofMathematics_Midterm_21-22_Sem1_Solution.pdf",
-                "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/MH1300/MH1300%20-%20Foundations%20of%20Mathematics%20-%20Midterm/MH1300_FoundationsofMathematics_Midterm_21-22_Sem1_Solution.pdf"
+                "path": "Notes/MH1300/MH1300 - Foundations of Mathematics - Midterms/MH1300_FoundationsofMathematics_Midterm_21-22_Sem1_Solution.pdf",
+                "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/MH1300/MH1300%20-%20Foundations%20of%20Mathematics%20-%20Midterms/MH1300_FoundationsofMathematics_Midterm_21-22_Sem1_Solution.pdf"
               }
             ],
             "reports": []
@@ -962,8 +994,8 @@
             "solutions": [
               {
                 "name": "MH1300_FoundationsofMathematics_Midterm_22-23_Sem1_Solution.pdf",
-                "path": "Notes/MH1300/MH1300 - Foundations of Mathematics - Midterm/MH1300_FoundationsofMathematics_Midterm_22-23_Sem1_Solution.pdf",
-                "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/MH1300/MH1300%20-%20Foundations%20of%20Mathematics%20-%20Midterm/MH1300_FoundationsofMathematics_Midterm_22-23_Sem1_Solution.pdf"
+                "path": "Notes/MH1300/MH1300 - Foundations of Mathematics - Midterms/MH1300_FoundationsofMathematics_Midterm_22-23_Sem1_Solution.pdf",
+                "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/MH1300/MH1300%20-%20Foundations%20of%20Mathematics%20-%20Midterms/MH1300_FoundationsofMathematics_Midterm_22-23_Sem1_Solution.pdf"
               }
             ],
             "reports": []
@@ -972,15 +1004,15 @@
             "papers": [
               {
                 "name": "MH1300_FoundationsofMathematics_Midterm_23-24_Sem1_QuestionPaper.pdf",
-                "path": "Notes/MH1300/MH1300 - Foundations of Mathematics - Midterm/MH1300_FoundationsofMathematics_Midterm_23-24_Sem1_QuestionPaper.pdf",
-                "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/MH1300/MH1300%20-%20Foundations%20of%20Mathematics%20-%20Midterm/MH1300_FoundationsofMathematics_Midterm_23-24_Sem1_QuestionPaper.pdf"
+                "path": "Notes/MH1300/MH1300 - Foundations of Mathematics - Midterms/MH1300_FoundationsofMathematics_Midterm_23-24_Sem1_QuestionPaper.pdf",
+                "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/MH1300/MH1300%20-%20Foundations%20of%20Mathematics%20-%20Midterms/MH1300_FoundationsofMathematics_Midterm_23-24_Sem1_QuestionPaper.pdf"
               }
             ],
             "solutions": [
               {
                 "name": "MH1300_FoundationsofMathematics_Midterm_23-24_Sem1_Solution.pdf",
-                "path": "Notes/MH1300/MH1300 - Foundations of Mathematics - Midterm/MH1300_FoundationsofMathematics_Midterm_23-24_Sem1_Solution.pdf",
-                "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/MH1300/MH1300%20-%20Foundations%20of%20Mathematics%20-%20Midterm/MH1300_FoundationsofMathematics_Midterm_23-24_Sem1_Solution.pdf"
+                "path": "Notes/MH1300/MH1300 - Foundations of Mathematics - Midterms/MH1300_FoundationsofMathematics_Midterm_23-24_Sem1_Solution.pdf",
+                "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/MH1300/MH1300%20-%20Foundations%20of%20Mathematics%20-%20Midterms/MH1300_FoundationsofMathematics_Midterm_23-24_Sem1_Solution.pdf"
               }
             ],
             "reports": []
@@ -989,15 +1021,15 @@
             "papers": [
               {
                 "name": "MH1300_FoundationsofMathematics_Midterm_24-25_Sem1_QuestionPaper.pdf",
-                "path": "Notes/MH1300/MH1300 - Foundations of Mathematics - Midterm/MH1300_FoundationsofMathematics_Midterm_24-25_Sem1_QuestionPaper.pdf",
-                "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/MH1300/MH1300%20-%20Foundations%20of%20Mathematics%20-%20Midterm/MH1300_FoundationsofMathematics_Midterm_24-25_Sem1_QuestionPaper.pdf"
+                "path": "Notes/MH1300/MH1300 - Foundations of Mathematics - Midterms/MH1300_FoundationsofMathematics_Midterm_24-25_Sem1_QuestionPaper.pdf",
+                "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/MH1300/MH1300%20-%20Foundations%20of%20Mathematics%20-%20Midterms/MH1300_FoundationsofMathematics_Midterm_24-25_Sem1_QuestionPaper.pdf"
               }
             ],
             "solutions": [
               {
                 "name": "MH1300_FoundationsofMathematics_Midterm_24-25_Sem1_Solution.pdf",
-                "path": "Notes/MH1300/MH1300 - Foundations of Mathematics - Midterm/MH1300_FoundationsofMathematics_Midterm_24-25_Sem1_Solution.pdf",
-                "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/MH1300/MH1300%20-%20Foundations%20of%20Mathematics%20-%20Midterm/MH1300_FoundationsofMathematics_Midterm_24-25_Sem1_Solution.pdf"
+                "path": "Notes/MH1300/MH1300 - Foundations of Mathematics - Midterms/MH1300_FoundationsofMathematics_Midterm_24-25_Sem1_Solution.pdf",
+                "downloadUrl": "https://raw.githubusercontent.com/yuhesui/QRSNTU/main/Notes/MH1300/MH1300%20-%20Foundations%20of%20Mathematics%20-%20Midterms/MH1300_FoundationsofMathematics_Midterm_24-25_Sem1_Solution.pdf"
               }
             ],
             "reports": []
@@ -1128,5 +1160,5 @@
       }
     }
   ],
-  "generatedAt": "2025-11-12T18:30:39.263Z"
+  "generatedAt": "2025-11-15T06:09:30.621Z"
 }
