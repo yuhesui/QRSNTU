@@ -1,9 +1,102 @@
+// Course metadata mapping - This will be loaded from the same source as generate-courses.js
+const COURSE_NAMES = {
+    'HE1001': 'Microeconomics I',
+    'HE1002': 'Macroeconomics I',
+    'CC0003': 'Ethics & Civics in a Multi-Cultural World',
+    'MH1100': 'Calculus I',
+    'MH1200': 'Linear Algebra I',
+    'MH1300': 'Foundations of Mathematics',
+    'HE2001': 'Microeconomics II',
+    'HE2002': 'Macroeconomics II',
+    'CC0001': 'Inquiry and Communication in an Interdisciplinary World',
+    'CC0015': 'Health & Wellbeing',
+    'MH1101': 'Calculus II',
+    'MH1201': 'Linear Algebra II',
+    'MH1301': 'Discrete Mathematics',
+    'MH4913': 'Professional Attachment',
+    'HE2003': 'Econometrics I',
+    'ML0004': 'Career Design & Workplace Readiness in the V.U.C.A World',
+    'MH2100': 'Calculus III',
+    'MH2500': 'Probability',
+    'MH3100': 'Real Analysis I',
+    'PS0001': 'Introduction to Computational Thinking',
+    'CSL': 'Care, Serve, Learn',
+    'CC0006': 'Sustainability: Society, Economy & Environment',
+    'CC0007': 'Science & Technology for Humanity',
+    'MH2220': 'Algebra I',
+    'MH1403': 'Algorithms and Computing',
+    'MH2510': 'Statistics I',
+    'HE3001': 'Microeconomics III',
+    'MH3101': 'Complex Analysis',
+    'MH3210': 'Number Theory',
+    'MH3220': 'Algebra II',
+    'MH3300': 'Graph Theory',
+    'MH3320': 'Dynamical System Theory with Chaos and Fractals',
+    'MH3400': 'Algorithms for the Real World',
+    'MH3401': 'Signal and Noise in Biology',
+    'MH3510': 'Regression Analysis',
+    'MH3511': 'Data Analysis with Computer',
+    'MH3512': 'Stochastic Processes',
+    'MH3515': 'Stochastic Geometry',
+    'MH3520': 'Mathematics of Deep Learning',
+    'MH3700': 'Numerical Analysis I',
+    'MH3701': 'Basic Optimization',
+    'MH4100': 'Real Analysis II',
+    'MH4110': 'Partial Differential Equations',
+    'MH4200': 'Abstract Algebra II',
+    'MH4300': 'Combinatorics',
+    'MH4301': 'Set Theory and Logic',
+    'MH4302': 'Theory of Computing',
+    'MH4310': 'Coding Theory',
+    'MH4311': 'Cryptography',
+    'MH4320': 'Computational Economics',
+    'MH4500': 'Time Series Analysis',
+    'MH4510': 'Statistical Learning and Data Mining',
+    'MH4511': 'Sampling & Survey',
+    'MH4512': 'Clinical Trials',
+    'MH4513': 'Survival Analysis',
+    'MH4514': 'Financial Mathematics',
+    'MH4515': 'Applied Bayesian Statistics',
+    'MH4516': 'Applied Categorical Data Analysis',
+    'MH4517': 'Data Applications in Natural Sciences',
+    'MH4518': 'Simulation Techniques in Finance',
+    'MH4519': 'Financial Econometrics',
+    'MH4520': 'High Dimensional Probability',
+    'MH4521': 'Reinforcement Learning',
+    'MH4601': 'Differential Geometry',
+    'MH4700': 'Numerical Analysis II',
+    'MH4701': 'Mathematical Programming',
+    'MH4702': 'Probabilistic Methods in OR',
+    'MH4712': 'Geometric Methods in Mathematical Physics',
+    'HE3002': 'Macroeconomics III',
+    'HW0218': 'Communication Across the Sciences',
+    'MH7002': 'Discrete Methods',
+    'HE3003': 'Econometrics II',
+    'PS0002': 'Introduction to Data Science and Artificial Intelligence',
+    'PS5000': 'Introduction to Undergraduate Research Experience',
+    'MH4910': 'Undergraduate Research Experience in Mathematical Sciences I',
+    'MH4911': 'Undergraduate Research Experience in Mathematical Sciences II',
+    'MH4912': 'Professional Internship',
+    'MH4920': 'Supervised Independent Study I',
+    'MH4921': 'Supervised Independent Study II',
+    'MH4930': 'Special Topics in Mathematics',
+    'MH4931': 'Special Topics in Applied Mathematics',
+    'MH4932': 'Special Topics in Statistics',
+    'MH5301': 'Modern Cryptography: Real-World Applications and Impact',
+    'MH5401': 'Real-World E-Commerce and DEEP Technology',
+    'MH5000': 'Mathematical Problem-Solving',
+    'MH5100': 'Advanced Investigations in Calculus I',
+    'MH5101': 'Advanced Investigations in Calculus II',
+    'MH5200': 'Advanced Investigations in Linear Algebra I',
+    'MH5201': 'Advanced Investigations in Linear Algebra II',
+    'MH9102': 'Advanced Investigations in Calculus III',
+    'MH9300': 'Advanced Investigations in Discrete Mathematics',
+    'MH7002': 'Discrete Methods'
+};
+
 let allCourses = [], filteredCourses = [], selectedCourses = new Set();
 let filterState = { examType: 'all', showSelectedOnly: false };
 let expandedSections = new Set();
-
-// Manual version for cache busting. Bump this when courses.json changes.
-const APP_VERSION = '1';
 
 document.addEventListener('DOMContentLoaded', async () => {
     lucide.createIcons();
@@ -16,7 +109,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 async function loadCourses() {
     const loadingState = document.getElementById('loading-state');
     try {
-        const response = await fetch(`courses.json?v=${APP_VERSION}`);
+        const response = await fetch('courses.json');
         if (!response.ok) throw new Error(`Failed to load courses data: ${response.status}`);
         const data = await response.json();
         allCourses = data.courses;
@@ -208,9 +301,7 @@ function createCourseCard(course) {
     if (course.materials.revisionNotes && course.materials.revisionNotes.length > 0) badges.push('<span class="material-badge bg-green-100 text-green-800">Notes</span>');
     if (course.materials.problemSheets && course.materials.problemSheets.length > 0) badges.push('<span class="material-badge bg-yellow-100 text-yellow-800">Problem Sheets</span>');
     if (course.materials.lectureNotes && course.materials.lectureNotes.length > 0) badges.push('<span class="material-badge bg-indigo-100 text-indigo-800">Lecture Notes</span>');
-    if (course.materials.practiceMaterials && Object.keys(course.materials.practiceMaterials).length > 0) {
-        badges.push('<span class="material-badge bg-pink-100 text-pink-800">Practice</span>');
-    }
+    if (course.materials.practiceMaterials && course.materials.practiceMaterials.length > 0) badges.push('<span class="material-badge bg-pink-100 text-pink-800">Practice</span>');
 
     let sectionHtml = '';
 
@@ -338,156 +429,21 @@ function createCourseCard(course) {
         sectionHtml += '</div></div>';
     }
 
-    // Practice Materials -
-    //  - Show numbered "Practice X" rows as: "Practice 1: Question Solution(QRS)"
-    //  - Wrap all non-numbered groups into a single "Other Practices" folder
-    if (course.materials.practiceMaterials && Object.keys(course.materials.practiceMaterials).length > 0) {
+    // Practice Materials
+    if (course.materials.practiceMaterials && course.materials.practiceMaterials.length > 0) {
         const uniqueId = `practice-materials-${course.code}`;
         const isExpanded = expandedSections.has(uniqueId);
-
-        const practiceData = course.materials.practiceMaterials || {};
-        const allKeys = Object.keys(practiceData);
-
-        const numberedKeys = allKeys
-            .filter(k => /^Practice\s+\d+$/.test(k))
-            .sort((a, b) => {
-                const na = parseInt(a.match(/Practice\s+(\d+)/)[1], 10);
-                const nb = parseInt(b.match(/Practice\s+(\d+)/)[1], 10);
-                return na - nb;
-            });
-
-        const otherKeys = allKeys.filter(k => !/^Practice\s+\d+$/.test(k));
-
-        // Optional: any ZIPs that contain "Practice" in the name
-        const practiceZips = (course.materials.pastYearZips || []).filter(z =>
-            z.name.toLowerCase().includes('practice')
-        );
-
-        // Count = numbered practices + (1 if we have "other")
-        const practiceGroupCount = numberedKeys.length + (otherKeys.length > 0 ? 1 : 0);
-
-        sectionHtml += `
-        <div class="mb-3">
-            <h4 class="text-sm font-bold mb-2 text-gray-900 flex items-center cursor-pointer hover:text-gray-700"
-                data-toggle-section="${uniqueId}">
-                <i data-lucide="${isExpanded ? 'chevron-down' : 'chevron-right'}"
-                   data-toggle-icon
-                   class="w-4 h-4 mr-1 text-pink-600"></i>
-                <i data-lucide="folder-open"
-                   class="w-4 h-4 mr-1 text-pink-600"></i>
-                Practice Materials (${practiceGroupCount})
-    `;
-
-        // ZIP buttons (if any)
-        practiceZips.forEach(zip => {
-            sectionHtml += `
-            <a href="${zip.downloadUrl}" download onclick="event.stopPropagation()"
-               class="inline-flex items-center ml-2 px-2 py-1 bg-yellow-600 text-white text-xs font-medium rounded hover:bg-yellow-700 transition-colors">
-                <i data-lucide="archive" class="w-3 h-3 mr-1"></i>ZIP
-            </a>`;
-        });
-
-        sectionHtml += `
+        sectionHtml += `<div class="mb-3">
+            <h4 class="text-sm font-bold mb-2 text-gray-900 flex items-center cursor-pointer hover:text-gray-700" data-toggle-section="${uniqueId}">
+                <i data-lucide="${isExpanded ? 'chevron-down' : 'chevron-right'}" data-toggle-icon class="w-4 h-4 mr-1 text-pink-600"></i>
+                <i data-lucide="folder-open" class="w-4 h-4 mr-1 text-pink-600"></i>
+                Practice Materials (${course.materials.practiceMaterials.length})
             </h4>
-            <div id="${uniqueId}" class="${isExpanded ? '' : 'hidden'} pl-5">
-    `;
-
-        // Numbered practices: "Practice 1: Question Solution(QRS)"
-        numberedKeys.forEach(name => {
-            const group = practiceData[name];
-
-            sectionHtml += `
-            <div class="mb-2 flex items-center flex-wrap gap-2">
-                <span class="text-xs font-semibold text-gray-800 mr-2">${name}:</span>
-            `;
-
-            // Question(s)
-            (group.papers || []).forEach(paper => {
-                sectionHtml += `
-                <a href="${paper.downloadUrl}" download onclick="event.stopPropagation()"
-                   class="inline-flex items-center px-2 py-1 bg-blue-600 text-white text-xs font-medium rounded hover:bg-blue-700 transition-colors">
-                    <i data-lucide="download" class="w-3 h-3 mr-1"></i>Question
-                </a>`;
-            });
-
-            // Solution(s)
-            (group.solutions || []).forEach(solution => {
-                const isQRS = solution.name.includes('by QRS');
-                const colorClass = isQRS
-                    ? 'bg-green-600 hover:bg-green-700'
-                    : 'bg-purple-600 hover:bg-purple-700';
-                const label = isQRS ? 'Solution (QRS)' : 'Solution';
-
-                sectionHtml += `
-                <a href="${solution.downloadUrl}" download onclick="event.stopPropagation()"
-                   class="inline-flex items-center px-2 py-1 ${colorClass} text-white text-xs font-medium rounded transition-colors">
-                    <i data-lucide="download" class="w-3 h-3 mr-1"></i>${label}
-                </a>`;
-            });
-
-            sectionHtml += `
-            </div>
-        `;
+            <div id="${uniqueId}" class="${isExpanded ? '' : 'hidden'} pl-5 flex flex-wrap gap-2">`;
+        course.materials.practiceMaterials.forEach(material => {
+            sectionHtml += `<a href="${material.downloadUrl}" download onclick="event.stopPropagation()" class="inline-flex items-center px-3 py-1.5 bg-pink-600 text-white text-xs font-medium rounded hover:bg-pink-700 transition-colors"><i data-lucide="download" class="w-3 h-3 mr-1"></i>${material.name}</a>`;
         });
-
-        // Other practices wrapped into a single "Other Practices" folder
-        if (otherKeys.length > 0) {
-            const otherFolderId = `${uniqueId}-other`;
-            const otherExpanded = expandedSections.has(otherFolderId);
-
-            // Flatten all "other" practice files
-            const otherItems = [];
-            otherKeys.forEach(k => {
-                const g = practiceData[k];
-                (g.papers || []).forEach(p => otherItems.push({ ...p, _kind: 'paper' }));
-                (g.solutions || []).forEach(s => otherItems.push({ ...s, _kind: 'solution' }));
-            });
-
-            sectionHtml += `
-            <div class="mb-2">
-                <div class="flex items-center cursor-pointer hover:text-gray-700"
-                     data-toggle-section="${otherFolderId}">
-                    <i data-lucide="${otherExpanded ? 'chevron-down' : 'chevron-right'}"
-                       data-toggle-icon
-                       class="w-3 h-3 mr-1 text-pink-600"></i>
-                    <i data-lucide="folder"
-                       class="w-4 h-4 mr-2 text-pink-600"></i>
-                    <span class="text-xs font-semibold text-gray-800">Other Practices</span>
-                </div>
-                <div id="${otherFolderId}" class="${otherExpanded ? '' : 'hidden'} pl-6 mt-1 flex flex-wrap gap-2">
-            `;
-
-            otherItems.forEach(item => {
-                const isSolution = item._kind === 'solution';
-                const isQRS = isSolution && item.name.includes('by QRS');
-                const colorClass = !isSolution
-                    ? 'bg-blue-600 hover:bg-blue-700'
-                    : isQRS
-                        ? 'bg-green-600 hover:bg-green-700'
-                        : 'bg-purple-600 hover:bg-purple-700';
-                const label = !isSolution
-                    ? 'Question'
-                    : isQRS
-                        ? 'Solution (QRS)'
-                        : 'Solution';
-
-                sectionHtml += `
-                    <a href="${item.downloadUrl}" download onclick="event.stopPropagation()"
-                       class="inline-flex items-center px-2 py-1 ${colorClass} text-white text-xs font-medium rounded transition-colors">
-                        <i data-lucide="download" class="w-3 h-3 mr-1"></i>${label}
-                    </a>`;
-            });
-
-            sectionHtml += `
-                </div>
-            </div>
-        `;
-        }
-
-        sectionHtml += `
-            </div>
-        </div>
-    `;
+        sectionHtml += '</div></div>';
     }
 
     // Revision Notes

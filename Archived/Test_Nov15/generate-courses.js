@@ -292,8 +292,8 @@ function scanDirectory() {
 }
 
 const courses = scanDirectory();
-const outputPath = path.join(__dirname, '../../Website/v1/courses.json');
-//const outputPath = 'D:/Projects/QRSNTU/Archived/Test_Nov15/courses.json';
+// const outputPath = path.join(__dirname, '../../Website/v1/courses.json');
+const outputPath = 'D:/Projects/QRSNTU/Archived/Test_Nov15/courses.json';
 
 fs.writeFileSync(
     outputPath,
